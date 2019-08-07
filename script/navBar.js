@@ -21,3 +21,7 @@ console.log(index_1)
         console.log(index_1)
     }
 }
+
+const portals = [""]
+
+const portal_1 = "<ul class='grid-container' ><li><a href='#'>RESEARCH</a></li><li><a href='#'>RESEARCH</a></li><li><a href='#'>RESEARCH</a></li><li><a href='#'>RESEARCH</a></li><li><a href='#'>RESEARCH</a></li></ul>"
