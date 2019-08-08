@@ -26,10 +26,6 @@ console.log(index_1)
     }
 }
 
-const portals = [""]
-
-const portal_1 = ""
-
 
 var slide_index;
 const grid_slide = (e) => {
@@ -42,3 +38,8 @@ slides[e-1].style.display = "block"
 layer1.style.width = "0"
 }
 grid_slide(slide_index)
+
+function back() {
+let layer_one = document.getElementById("layer_1")
+    layer_one.style.width = "100%"
+}
