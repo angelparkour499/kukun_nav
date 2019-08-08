@@ -178,7 +178,7 @@ bottom: 0;
 
 /*grid*/
 
-.grid-container {
+.grid-container_1 {
     display: grid;
      grid-template-columns: repeat(auto-fill, 120px);
     grid-template-rows: repeat(auto-fill, 120px);
@@ -223,6 +223,7 @@ bottom: 0;
         font-family: muli;
         color: #7e7d7d;
         overflow: hidden;
+        transition-duration: .3s;
     }
     #layer_1 li {
         overflow: hidden;
@@ -250,7 +251,7 @@ bottom: 0;
         min-height: 400px;
         max-height: 1000px;
         background-color: rgb(211, 211, 211);
-        transition-duration: .5s;
+        transition-duration: 1s;
     }
   }
   
